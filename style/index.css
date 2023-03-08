@@ -1,1 +1,143 @@
 /* CSS stillerinizi buraya girin */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 05px;
+  margin-left: 20px;
+
+  /* margin top yerine?*/
+}
+
+header nav a {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+header nav a:hover {
+  background: black;
+  color: white;
+}
+
+.name {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  /* margin top yerine?*/
+}
+/*
+
+
+
+*/
+
+.OrtaUst {
+  display: flex;
+  margin: 20px;
+}
+
+.ortaUstMetin {
+  margin: 20px;
+}
+
+h1 {
+  text-align: left;
+}
+
+a button {
+  text-align: left;
+  font-size: 20px;
+}
+
+a button:hover {
+  background: black;
+  color: white;
+}
+
+.ortaUstMetin p {
+  font-size: 30px;
+}
+
+.OrtaUst img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.orta .Orta8Kutu nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: space-between;
+  gap: 30px;
+  /* alta kayanlarla usttekilerin arasını ayarlamak için  gap doğru kullanım mı acaba?*/
+  margin-top: 30px;
+}
+
+.orta .Orta8Kutu nav a {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.kutugorsel img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.kutugorsel:hover img {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/*
+
+
+
+*/
+
+/*
+
+
+
+
+
+*/
+
+header {
+  background-color: rgb(232, 229, 229);
+  width: auto;
+  height: 110px;
+  border: 0.5px solid rgb(108, 108, 108);
+}
+
+.orta {
+  background-color: white;
+  width: auto;
+  height: 690px;
+  border: 0.5px solid rgb(108, 108, 108);
+}
+
+footer {
+  background-color: rgb(232, 229, 229);
+  width: auto;
+  height: 100px;
+  border: 0.5px solid rgb(108, 108, 108);
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
