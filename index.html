@@ -6,69 +6,95 @@
     <link rel="stylesheet" href="style/index.css" />
     <title>Salim Çobanoğlu</title>
   </head>
-  <body class="container">
-    <header>
-      <div class="name">SALİM ÇOBANOĞLU</div>
-      <nav>
-        <a href="index.html">AnaSayfa</a>
-        <a href="about.html">Hakkında</a>
-        <a href="contact.html">İletişim</a>
-        <a href="projects.html">Projeler</a>
-      </nav>
+
+  <body>
+    <header class="header">
+      <div class="containerClamp">
+        <h1>SALİM ÇOBANOĞLU</h1>
+        <nav class="menu">
+          <ul>
+            <li class="menu--active"><a href="index.html">AnaSayfa</a></li>
+            <li><a href="about.html">Hakkında</a></li>
+            <li><a href="contact.html">İletişim</a></li>
+            <li><a href="projects.html">Projeler</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section class="orta">
-      <div class="OrtaUst">
-        <img
-          src="sayfa gorselleri/Need a Full Stack Developer.png"
-          alt="Hayallerdeki Yazılımcı"
-        />
-        <div class="ortaUstMetin">
-          <h1>Salim Çobanoğlu</h1>
-          <a href="projects.html"><button>Projeler</button></a>
-
-          <p>Henüz çok bir şey vaad edemiyorum ama bir de 6 ay sonra görün!</p>
-        </div>
+    <section class="about containerClamp">
+      <div class="about__image">
+        <img src="sayfa gorselleri/Need a Full Stack Developer.png" alt="" />
       </div>
-      <div class="Orta8Kutu">
-        <nav>
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/css.png" alt="CSS" /> CSS Projeleri
-          </a>
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/html.png" alt="HTML" />HTML Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/js.png" alt="JS" />JS Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/nodejs.png" alt="NodeJS" />NodeJS
-            Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/python.png" alt="Python" />Python
-            Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/react.png" alt="react" />React
-            Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/redux.png" alt="redux" />Redux
-            Projeleri</a
-          >
-          <a class="kutugorsel" href="#">
-            <img src="sayfa gorselleri/sql.png" alt="sql" />SQL Projeleri</a
-          >
-        </nav>
+
+      <div class="about__content">
+        <h2>Salim Çobanoğlu</h2>
+        <button>Projeler</button>
+        <p>
+          <span>Henüz çok bir şey vaad edemiyorum, 6 ay sonra görüşelim!</span>
+        </p>
       </div>
     </section>
 
-    <footer class="container">
-      <ul>
-        <li>Gördüklerinden memnun musun?</li>
-        <li><button>Bana Ulaş</button></li>
-      </ul>
+    <section class="projects containerClamp">
+      <div class="projects__item">
+        <img
+          class="project__image"
+          src="sayfa gorselleri/html.png"
+          alt="HTML"
+        />
+        <p>HTML Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img class="project__image" src="sayfa gorselleri/css.png" alt="CSS" />
+        <p>CSS Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img class="project__image" src="sayfa gorselleri/js.png" alt="JS" />
+        <p>JS Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img
+          class="project__image"
+          src="sayfa gorselleri/nodejs.png"
+          alt="nodejs"
+        />
+        <p>NODEJS Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img
+          class="project__image"
+          src="sayfa gorselleri/python.png"
+          alt="python"
+        />
+        <p>PYTHON Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img
+          class="project__image"
+          src="sayfa gorselleri/react.png"
+          alt="react"
+        />
+        <p>REACT Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img
+          class="project__image"
+          src="sayfa gorselleri/redux.png"
+          alt="redux"
+        />
+        <p>REDUX Projeleri</p>
+      </div>
+      <div class="projects__item">
+        <img class="project__image" src="sayfa gorselleri/sql.png" alt="sql" />
+        <p>SQL Projeleri</p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__cta containerClamp">
+        <p>Gördüklerinden memnun musun?</p>
+        <button>Bana Ulaş</button>
+      </div>
     </footer>
   </body>
 </html>
