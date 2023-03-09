@@ -5,7 +5,7 @@ body {
 }
 
 .containerClamp {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 .header {
@@ -99,3 +99,50 @@ body {
   display: inline-block;
   text-align: center;
 }
+
+@media (max-width: 600px) {
+  .header {
+    display: flex;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 250%;
+    margin: -0.5%;
+  }
+
+  .menu ul li {
+    font-size: 150%;
+  }
+  .about {
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about__content {
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  .projects {
+    margin-left: 6%;
+  }
+
+  .projects__item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+
+  .projects__item p {
+    display: none;
+  }
+}
+
+/*
+
+
+
+
+
+
+*/
